@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+::selection {
+  background: $secondaryColor;
+}
+
 .container {
   background-color: $backgroundColor;
   width: 100%;
@@ -29,17 +33,10 @@
 }
 
 .profile-img {
-  filter: grayscale(1);
-  max-width: 55%;
-  border-radius: 50%;
+  width: 280px;
   margin: 1em;
-  border: 2px solid $textColor;
+  border: 5px solid $textColor;
   box-shadow: 2px 2px 2px $backgroundColor;
-  transition: 0.5s;
-
-  &:hover {
-    filter: none;
-  }
 }
 
 .menu-div {
@@ -66,4 +63,13 @@
       color: gray;
     }
   }
+}
+
+.footer {
+  width: 100%;
+  background: $secondaryColor;
+  height: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
