@@ -3045,14 +3045,14 @@
 }
 
 ::selection {
-  background: #FE9200;
+  background: crimson;
 }
 
 .container {
-  background-color: #fff;
+  background-color: white;
   width: 100%;
   height: 99vh;
-  border-bottom: 1vh solid #FE9200;
+  border-bottom: 1vh solid crimson;
 }
 
 .center-content {
@@ -3062,7 +3062,7 @@
 }
 
 .box {
-  color: #111;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
@@ -3090,12 +3090,12 @@
 .menu a {
   display: flex;
   flex-direction: column;
-  color: #111;
+  color: black;
   transition: 0.3s;
   opacity: 0.5;
 }
 .menu a:hover {
-  color: #FE9200;
+  color: crimson;
   opacity: 1;
 }
 .menu a[disabled] {
