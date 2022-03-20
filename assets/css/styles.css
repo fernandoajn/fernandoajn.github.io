@@ -3045,14 +3045,14 @@
 }
 
 ::selection {
-  background: crimson;
+  background: gold;
 }
 
 .container {
   background-color: white;
   width: 100%;
   height: 99vh;
-  border-bottom: 1vh solid crimson;
+  border-bottom: 1vh solid gold;
 }
 
 .center-content {
@@ -3074,6 +3074,11 @@
   width: 280px;
   margin: 1em;
   border-radius: 50%;
+  transition: 0.5s ease;
+  filter: grayscale(1);
+}
+.profile-img:hover {
+  filter: none;
 }
 
 .menu-div {
@@ -3095,7 +3100,7 @@
   opacity: 0.5;
 }
 .menu a:hover {
-  color: crimson;
+  color: gold;
   opacity: 1;
 }
 .menu a[disabled] {
