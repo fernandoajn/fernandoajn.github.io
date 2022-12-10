@@ -1,0 +1,8 @@
+
+@keyframes grayscale-onout {
+    from {
+      filter: grayscale(0);
+    } to {
+      filter: grayscale(.6);
+    }
+  }
